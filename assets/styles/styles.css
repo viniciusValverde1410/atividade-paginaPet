@@ -9,14 +9,18 @@
     --cor-cinza: #dcdcdc;
 }
 
-h1,h2,h3,h4,p{
+h1,
+h2,
+h3,
+h4,
+p {
     margin: 0;
     padding: 0;
 }
 
 header {
     width: 100%;
-    height: 3.5rem;
+    height: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,16 +66,15 @@ header {
 }
 
 .hero-section {
-    margin-left: 7rem;
     height: 100%;
     width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
 .pai-hero {
-    width: 90%;
+    width: 80%;
     height: 75%;
 }
 
@@ -97,7 +100,7 @@ header {
 
 .pai-btn {
     height: 30%;
-    width: 100%;    
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -106,17 +109,24 @@ header {
 .btn {
     width: 40%;
     height: 60%;
+    font-weight: bold;
 }
 
 .image-section {
     width: 50%;
-    height: 150%;
-    background-color: #a28af9;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imagem-hero {
-    width: 90%;
-    height: 90%;
+    width: 95%;
+    height: 95%;
+    margin-top: 3rem;
 }
 
-
+.container-servicos {
+    width: 100%;
+    height: 30rem;
+}
