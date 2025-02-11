@@ -57,16 +57,66 @@ header {
 .container-hero {
     width: 100%;
     height: 30rem;
-    background-color: blue;
     display: flex;
     flex-direction: row;
 }
 
 .hero-section {
+    margin-left: 7rem;
     height: 100%;
     width: 50%;
-    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.pai-hero {
+    width: 90%;
+    height: 75%;
+}
+
+.pai-titulo {
+    height: 35%;
+    width: 100%;
+}
+
+.titulo-section {
+    font-weight: bold;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pai-subtitulo {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pai-btn {
+    height: 30%;
+    width: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.btn {
+    width: 40%;
+    height: 60%;
+}
+
+.image-section {
+    width: 50%;
+    height: 150%;
+    background-color: #a28af9;
+}
+
+.imagem-hero {
+    width: 90%;
+    height: 90%;
+}
 
 
