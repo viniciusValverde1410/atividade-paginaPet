@@ -214,23 +214,23 @@
         <h1 class="titulo-forms"> Deixe uma mensagem para nós!
         </h1>
 
-        <form class="forms">
+        <div id="contatoForm" class="forms">
             <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label area-forms">Nome</label>
-                <input type="text" class="form-control" id="exampleInputPassword1">
+                <label for="exampleInputNome" class="form-label area-forms">Nome:</label>
+                <input type="text" class="form-control" id="nome"  placeholder="Seu Nome">
             </div>
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label area-forms">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label area-forms">Message</label>
-                <input type="text" class="form-control msg" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <label for="exampleInputEmail1" class="form-label area-forms">Email:</label>
+                <input type="email" class="form-control" id="email"  aria-describedby="emailHelp" placeholder="Seu email" >
             </div>
 
-            <button type="submit" class="butao-forms btn btn-primary">Submit</button>
-        </form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label area-forms">Mensagem</label>
+                <input type="textarea" class="form-control msg" id="mensagem" aria-describedby="emailHelp" placeholder="Deixe uma mensagem">
+            </div>
+
+            <button type="button" onclick="envio()" class="butao-forms btn btn-primary">Enviar</button>
+        </div>
     </section>
 
     <section class="footer">
@@ -248,10 +248,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
+        <script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+      </script>
+      
 </body>
 
 </html>
