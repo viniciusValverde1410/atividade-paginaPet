@@ -222,7 +222,7 @@ header {
 }
 
 .forms {
-    width: 80%;
+    width: 50%;
 }
 
 .butao-forms{
@@ -233,4 +233,20 @@ header {
 .msg {
     height: 10rem;
     width: 2rem;
+}
+
+.footer {
+    width: 100%;
+    height: 7rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+    padding: 1rem;
 }
