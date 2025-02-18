@@ -8,7 +8,7 @@ Valverde
 
 Gabi
 --
-- service_puck2jd
-- template_8ve0bw8
-- OcdRlnBeT2Ob2otle
-- 0J5R83XM7YNCiTWxQO_zG
+- id service / service_puck2jd /
+- id template / template_8ve0bw8 /
+- Public Key / OcdRlnBeT2Ob2otle /
+- Private Keay / 0J5R83XM7YNCiTWxQO_zG / 
