@@ -245,7 +245,7 @@ header {
     text-align: center;
 }
 
-p {
+.text-footer {
     color: white;
     text-align: center;
     padding: 1rem;
